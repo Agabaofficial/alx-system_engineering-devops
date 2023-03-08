@@ -1,1 +1,1 @@
-printing the working directory
+cleaning emacs
