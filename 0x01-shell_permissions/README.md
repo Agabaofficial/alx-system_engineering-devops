@@ -1,1 +1,1 @@
-Multiple permissions
+Giving everybody execute powers
