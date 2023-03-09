@@ -1,1 +1,1 @@
-If condition herwe buddy
+SHELL PERMISSION PROJECTS
