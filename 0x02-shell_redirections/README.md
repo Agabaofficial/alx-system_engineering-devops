@@ -1,1 +1,1 @@
-hidethisword
+18 letter only
