@@ -1,1 +1,1 @@
-18 letter only
+a to z
