@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Loops from 1 to 10 and displays:
+#   "bad luck" for the 4th iteration
+#   "good luck" for the 8th iteration
+#   "Best School" for all other iterations
+CONTER=0
+while [ $CONTER -lt 10 ];
+do
+    if [ $CONTER -eq 3 ]
+    then
+echo "bad luck"
+    elif [ $CONTER -eq 7 ]
+    then
+echo "good luck"
+    else
+echo "Best School"
+    fi
+    let CONTER=CONTER+1
+done
