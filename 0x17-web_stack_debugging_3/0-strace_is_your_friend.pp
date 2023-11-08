@@ -1,5 +1,6 @@
-# task 0 _ automated puppet fix (to find out why Apache is returning a 500 error)
-exec { 'fixed-phpp':
-  command => "sed -i 's/phpp/php/g' /var/www/html/wp-settings.php",
-    path    => '/bin';
-    }
+# puppet script to fix out why Apache is returning a 500 error
+
+exec { 'Fix wordpress site':
+ command  => 'sudo sed -i "s/.phpp/.php/" /var/www/html/wp-settings.php',
+ provider => shell,
+}
