@@ -2,7 +2,7 @@
 
 Issue Summary:
 
-Time it took place: November 8, 2023, 10:30 AM - November 9, 2023, 1:15 AM (UTC)
+Time it took place: September 12th, 2023, 10:30 AM - October 1st, 2023, 1:15 AM (UTC)
 Impact: A snag in our user authentication service disrupted access for 30% of our users, rendering logins impossible.
 Root Cause: An overlooked glitch hitched a ride with a recent code deployment, messing up our authentication mojo.
 Timeline:
